@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: ca49d4ad4f230b34698457d4402eb828
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6882640372357086362
+    second: BlueExplode_0
+  - first:
+      213: -4504727211712108699
+    second: BlueExplode_1
+  - first:
+      213: 4660963189067178043
+    second: BlueExplode_2
+  - first:
+      213: 310271521477845526
+    second: BlueExplode_3
+  - first:
+      213: 5340815859388403580
+    second: BlueExplode_4
+  - first:
+      213: 2711647199423925057
+    second: BlueExplode_5
+  - first:
+      213: -8094975109900063984
+    second: BlueExplode_6
+  - first:
+      213: -3193582406205621689
+    second: BlueExplode_7
+  - first:
+      213: -3769747034158487589
+    second: BlueExplode_8
+  - first:
+      213: 2827514852579164376
+    second: BlueExplode_9
+  - first:
+      213: 5314167419541366094
+    second: BlueExplode_10
+  - first:
+      213: -4704411649702277305
+    second: BlueExplode_11
+  - first:
+      213: -2829815730984377419
+    second: BlueExplode_12
+  - first:
+      213: -7421685206034339730
+    second: BlueExplode_13
+  - first:
+      213: 4678786617229708057
+    second: BlueExplode_14
+  - first:
+      213: 4917544744005813845
+    second: BlueExplode_15
+  - first:
+      213: 2769087180129336347
+    second: BlueExplode_16
+  - first:
+      213: -2353397754677160881
+    second: BlueExplode_17
+  - first:
+      213: 423906053104695890
+    second: BlueExplode_18
+  - first:
+      213: 4701818875201477013
+    second: BlueExplode_19
+  - first:
+      213: -3629363358693278660
+    second: BlueExplode_20
+  - first:
+      213: -7457008701372373222
+    second: BlueExplode_21
+  - first:
+      213: 7208635251674894125
+    second: BlueExplode_22
+  - first:
+      213: -6463718943270987626
+    second: BlueExplode_23
+  - first:
+      213: 1840572615965569120
+    second: BlueExplode_24
+  - first:
+      213: -2831507236103126984
+    second: BlueExplode_25
+  - first:
+      213: 5220707785293201866
+    second: BlueExplode_26
+  - first:
+      213: 2359783852636361271
+    second: BlueExplode_27
+  - first:
+      213: -3819950665785433192
+    second: BlueExplode_28
+  - first:
+      213: 1871392668995344512
+    second: BlueExplode_29
+  - first:
+      213: -3702805857853752747
+    second: BlueExplode_30
+  - first:
+      213: 4879394862142012453
+    second: BlueExplode_31
+  - first:
+      213: -5696637152274454685
+    second: BlueExplode_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueExplode_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 801
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663c4e01c03fb70a0800000000000000
+      internalID: -6882640372357086362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_1
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 786
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5672ddfc77efb71c0800000000000000
+      internalID: -4504727211712108699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 779
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30658b53511fa040800000000000000
+      internalID: 4660963189067178043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 773
+        width: 156
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6126b9d0e4e4e4400800000000000000
+      internalID: 310271521477845526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 578
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f4e9d2ab36e1a40800000000000000
+      internalID: 5340815859388403580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 575
+        width: 169
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b88ddc2c4b1a520800000000000000
+      internalID: 2711647199423925057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 572
+        width: 174
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b27ccc60fd8af80800000000000000
+      internalID: -8094975109900063984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_7
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 570
+        width: 178
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a3d2dc8bd1ea3d0800000000000000
+      internalID: -3193582406205621689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_8
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 569
+        width: 181
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7a6ef9b0b2fabc0800000000000000
+      internalID: -3769747034158487589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 375
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d04f1117c95d3720800000000000000
+      internalID: 2827514852579164376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_10
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 376
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45a7b6cc17bfb940800000000000000
+      internalID: 5314167419541366094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 375
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f4946978296beb0800000000000000
+      internalID: -4704411649702277305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_12
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 375
+        width: 182
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b32ddee5997ab8d0800000000000000
+      internalID: -2829815730984377419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_13
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 376
+        width: 184
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e682d8b70a0e00990800000000000000
+      internalID: -7421685206034339730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 183
+        width: 183
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b04db93a36ee040800000000000000
+      internalID: 4678786617229708057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 183
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5564e81f3e0ae3440800000000000000
+      internalID: 4917544744005813845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 184
+        width: 184
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c72bb7e16cd6620800000000000000
+      internalID: 2769087180129336347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_17
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 185
+        width: 182
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f441441063d075fd0800000000000000
+      internalID: -2353397754677160881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_18
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 186
+        width: 180
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a71713f4402e500800000000000000
+      internalID: 423906053104695890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 168
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5995c9e0b57304140800000000000000
+      internalID: 4701818875201477013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 9
+        width: 154
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cb4442149e1adc0800000000000000
+      internalID: -3629363358693278660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 25
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17e3b35812638890800000000000000
+      internalID: -7457008701372373222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_22
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 112
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fc07381973a0460800000000000000
+      internalID: 7208635251674894125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_23
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 98
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6989e5a0ed14c46a0800000000000000
+      internalID: -6463718943270987626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_24
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 96
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06070fdda070b8910800000000000000
+      internalID: 1840572615965569120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_25
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8300025bb2774b8d0800000000000000
+      internalID: -2831507236103126984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_26
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 91
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1848af11ea37840800000000000000
+      internalID: 5220707785293201866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_27
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 87
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732d71b49e2afb020800000000000000
+      internalID: 2359783852636361271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_28
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 51
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893a752cb1fccfac0800000000000000
+      internalID: -3819950665785433192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_29
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088dcb6a7b588f910800000000000000
+      internalID: 1871392668995344512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_30
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 72
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a346ac0bdfc9cc0800000000000000
+      internalID: -3702805857853752747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_31
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 67
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c37d466c717b340800000000000000
+      internalID: 4879394862142012453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueExplode_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 56
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367636c21ba71f0b0800000000000000
+      internalID: -5696637152274454685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
