@@ -16,15 +16,22 @@ public class PlayerControl : MonoBehaviour
 
     public float attack_timer = 0.3f;
     private float current_Attack_Timer;
-    private bool canAttack;
+    public bool canAttack;
+    public bool canShoot;
 
     public UnityEngine.Animator anim;
+    private AudioSource shotaudio;
 
-    // Start is called before the first frame update
+    void Awake(){
+        shotaudio = GetComponent<AudioSource>();
+    }
     void Start()
     {
         current_Attack_Timer = attack_timer;
         anim = GetComponent<Animator>();
+        if(canShoot){
+            Invoke("StartShooting", Random.Range(1f, 3f));
+        }
         
     }
 
@@ -67,6 +74,7 @@ public class PlayerControl : MonoBehaviour
                 canAttack = false;
                 attack_timer= 0f;
                 Instantiate(player_Bullet, attack_Point.position, Quaternion.identity);
+                shotaudio.Play();
             }
             
         }
@@ -93,5 +101,13 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
+    void StartShooting(){
+        GameObject bullet = Instantiate(player_Bullet, attack_Point.position, Quaternion.Euler(0f, 0f, 0f));
+
+        if(canShoot){
+                Invoke("StartShooting", Random.Range(1f, 3f));
+        }
+            
+    }
 
 }

@@ -13,23 +13,30 @@ public class EnemyScript : MonoBehaviour
 
     public float bound_x = -11f;
 
+    
+    public GameObject Enemy_Bullet;
+    
     public Transform attack_point;
-    public GameObject bulletPrefab;
 
     public UnityEngine.Animator anim;
     private AudioSource explosionSound;
+
+    public float attack_timer = 5f;
+    private float current_Attack_Timer;
     
-    void awake()
+    void Awake()
     {
         anim = GetComponent<Animator>();
         explosionSound = GetComponent<AudioSource>();
+
+        
     }
 
      void start()
     {
-        if(canShoot)
-            Invoke("StartShooting", Random.Range(1f, 3f));
 
+        current_Attack_Timer = attack_timer;
+        
         if(canRotate){
            if(Random.Range(0,2) > 0){
                rotate_speed = Random.Range(rotate_speed, rotate_speed + 20f);
@@ -39,8 +46,11 @@ public class EnemyScript : MonoBehaviour
            }
         }
 
+        // if(canShoot){
+        //     Invoke("StartShooting", Random.Range(1f, 3f));
+        // }
         
-
+    
        
     }
 
@@ -50,6 +60,12 @@ public class EnemyScript : MonoBehaviour
         Move();
         RotateEnemy();
         
+        if(canShoot){
+                canShoot = false;
+                attack_timer= 0f;
+                Invoke("StartShooting", Random.Range(1f, 3f));
+        }
+
     }
 
     void Move(){
@@ -70,11 +86,21 @@ public class EnemyScript : MonoBehaviour
     }
 
      void StartShooting(){
-        GameObject bullet = Instantiate(bulletPrefab, attack_point.position, Quaternion.Euler(0f, 0f, 0f));
-        bullet.GetComponent<BulletScript>().is_EnemyBullet = true;
+        attack_timer += Time.deltaTime;
+        if(attack_timer > current_Attack_Timer){
+            canShoot = true;
+            
+        }
+        GameObject bullet = Instantiate(Enemy_Bullet, attack_point.position, Quaternion.Euler(0f, 0f, 0f));
+        //bullet.GetComponent<BulletScript>().is_EnemyBullet=true;
+            if(canShoot){
+                Invoke("StartShooting", Random.Range(1f, 3f));
+                canShoot = false;
+                attack_timer= 0f;
+                
+             }
 
-        if(canShoot)
-            Invoke("StartShooting", Random.Range(1f, 3f));
+            
     }
 
     void TurnOfGameObject(){
@@ -84,13 +110,21 @@ public class EnemyScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D target){
         if(target.tag == "Bullet"){
             canMove=false;
-            if(canShoot){
-                canShoot = false;
-                CancelInvoke("StartShooting");
+
+            if(canShoot==true){
+            canShoot = false;
+            CancelInvoke("StartShooting");
             }
+            
+            canShoot = false;
+            CancelInvoke("StartShooting");
 
             Invoke("TurnOfGameObject", 0.9f);
+            explosionSound.Play();
             anim.Play("Destroy");
+
+            
+            
         }
     }
 }
